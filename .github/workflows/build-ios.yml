@@ -1,10 +1,13 @@
 # Build file .ipa KHÔNG ký (unsigned) để sideload bằng Apple ID miễn phí
 # (Sideloadly / AltStore sẽ ký lại khi cài lên iPhone).
-# Chạy tay: tab Actions → "Build iOS (unsigned IPA)" → Run workflow.
+# Chạy tay: tab Actions → "Build iOS (unsigned IPA)" → Run workflow,
+# hoặc push tag: git tag ios-1 && git push origin ios-1
 name: Build iOS (unsigned IPA)
 
 on:
   workflow_dispatch:
+  push:
+    tags: ['ios-*']
 
 jobs:
   build:
