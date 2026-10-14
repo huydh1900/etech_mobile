@@ -1,0 +1,166 @@
+{
+  "id": 1362,
+  "code": "260618130",
+  "state": "draft",
+  "state_label": "Dự thảo",
+  "program_code": "LM-2606-2157",
+  "partner_name": "Công ty TNHH TM VÀ XNK ABC",
+  "sample_name": "Sầu riêng tươi",
+  "sampling_location": "Cơ sở đóng gói Lan Anh - Số 33, Lý Thái Tổ, Phường Kinh Bắc, tỉnh Bắc Ninh",
+  "actual_date": "2026-06-18",
+  "sample_count": 1,
+  "seal_number": "Không kẹp chì",
+  "vehicle_plate": "77F00530",
+  "trailer_plate": "77R05064",
+  "container_code": "WHLU7748079",
+  "planting_area_code": "VN-TGPH-911",
+  "packing_facility_code": "VN-TGOR-0112",
+  "env_condition": "thuong",
+  "env_condition_other": "",
+  "other_remarks": "",
+  "customer_rep_name": "Quốc",
+  "customer_rep_phone": "0916545568",
+  "customer_rep_title": "Lái xe",
+  "customer_rep_address": "Yên Mạc, Ninh Bình",
+  "customer_rep_id_card": "0123456789",
+  "customer_signer_name": "",
+  "geo_lat": 21.1923724,
+  "geo_lon": 106.0624428,
+  "customer_address": "Ngõ 10, Phường Võ Cường, tỉnh Bắc Ninh, Việt Nam",
+  "created_by": "Hà Đình Khánh",
+  "created_at": "2026-06-18 16:05:08.400678+07:00",
+  "updated_by": "Hà Đình Khánh",
+  "updated_at": "2026-06-18 16:05:08.400678+07:00",
+  "request_code": "PTM2601035",
+  "customer_rep_id_date": "2021-06-24",
+  "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+  "sample_count_display": "01",
+  "storage_duration": "Không lưu",
+  "supervisor1_name": "",
+  "supervisor1_title": "",
+  "supervisor1_org": "",
+  "supervisor1_address": "",
+  "supervisor2_name": "",
+  "supervisor2_title": "",
+  "supervisor2_org": "",
+  "supervisor2_address": "",
+  "supervisor_signer_name": "",
+  "samplers": [
+    {
+      "name": "Hà Đình Khánh",
+      "job_title": "Nhân viên"
+    }
+  ],
+  "methods": [
+    {
+      "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+      "sop_code": "SOP.HTET.TP - 03"
+    }
+  ],
+  "lines": [
+    {
+      "id": 1351,
+      "name": "Sầu riêng tươi",
+      "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+      "sample_type_code": "RCQ",
+      "original_code": "PTM2601035.RCQ\n(PTM2601035.RCQ.01, PTM2601035.RCQ.02, PTM2601035.RCQ.03, PTM2601035.RCQ.04, PTM2601035.RCQ.05)",
+      "sample_status": "sealed",
+      "packing": "mẫu đựng trong thùng carton gói kín bằng bao dứa",
+      "sample_weight": 5,
+      "packing_unit": "qua",
+      "storage": "ambient",
+      "description": "1. Tình trạng mẫu khi nhận/ Sample condition upon receipt: Niêm phong (Niêm phong/không niêm phong)/ (Sealed/ Unsealed)\n2. Bao gói/ Packing: mẫu đựng trong thùng carton gói kín bằng bao dứa\n3. Khối lượng mẫu ban đầu/ Đơn vị bao gói/ Sample weight / Packing unit: 5 Quả (Quả/kg/gói)/ (Pieces/kg/pack)\n4. Tình trạng lưu mẫu/ Sample storage condition: Điều kiện thường (Bảo quản lạnh / điều kiện thường)/ (Cold storage/ Ambient conditions)",
+      "seal_stamp_no": "PTM2601035",
+      "parameters": [
+        "Auramine O (Thịt quả)/ Auramine O (Fruit flesh)",
+        "Auramine O (Vỏ ngoài quả)/ Auramine O (Outer shell part)",
+        "Cadimi (Cd)/ Cadmium (Cd)"
+      ]
+    }
+  ],
+  "photos": {
+    "plate": [
+      {
+        "id": 19808,
+        "name": "3515.jpg",
+        "url": "/web/image/19808"
+      }
+    ],
+    "container": [
+      {
+        "id": 19809,
+        "name": "3516.jpg",
+        "url": "/web/image/19809"
+      }
+    ],
+    "packaging": [
+      {
+        "id": 19810,
+        "name": "3518.jpg",
+        "url": "/web/image/19810"
+      }
+    ],
+    "lot": [
+      {
+        "id": 19811,
+        "name": "3517.jpg",
+        "url": "/web/image/19811"
+      }
+    ],
+    "master": [
+      {
+        "id": 19812,
+        "name": "3520.jpg",
+        "url": "/web/image/19812"
+      }
+    ],
+    "test": [
+      {
+        "id": 19825,
+        "name": "4054.jpg",
+        "url": "/web/image/19825"
+      },
+      {
+        "id": 19821,
+        "name": "4053.jpg",
+        "url": "/web/image/19821"
+      },
+      {
+        "id": 19817,
+        "name": "4052.jpg",
+        "url": "/web/image/19817"
+      },
+      {
+        "id": 19816,
+        "name": "4051.jpg",
+        "url": "/web/image/19816"
+      },
+      {
+        "id": 19815,
+        "name": "4050.jpg",
+        "url": "/web/image/19815"
+      },
+      {
+        "id": 19814,
+        "name": "4049.jpg",
+        "url": "/web/image/19814"
+      },
+      {
+        "id": 19813,
+        "name": "4048.jpg",
+        "url": "/web/image/19813"
+      }
+    ]
+  },
+  "sampling_location_actual": "QUỐC LỘ 26, XÃ EA KNUẾC, ĐẮK LẮK",
+  "vehicle_plate_actual": "88H03132",
+  "container_code_actual": "HARU5120070",
+  "trailer_plate_actual": "88RM00080",
+  "dates": [
+    {
+      "date_start": "2026-06-18 08:00:00",
+      "date_end": "2026-06-18 10:30:00"
+    }
+  ],
+  "completion_label": "16 giờ 06 phút, ngày 18 tháng 06 năm 2026"
+}

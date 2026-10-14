@@ -1,0 +1,80 @@
+{
+  "sample_status": [
+    {
+      "value": "sealed",
+      "label": "Niêm phong"
+    },
+    {
+      "value": "unsealed",
+      "label": "Không niêm phong"
+    }
+  ],
+  "packing_unit": [
+    {
+      "value": "qua",
+      "label": "Quả"
+    },
+    {
+      "value": "kg",
+      "label": "kg"
+    },
+    {
+      "value": "goi",
+      "label": "Gói"
+    }
+  ],
+  "storage": [
+    {
+      "value": "cold",
+      "label": "Bảo quản lạnh"
+    },
+    {
+      "value": "ambient",
+      "label": "Điều kiện thường"
+    }
+  ],
+  "env_condition": [
+    {
+      "value": "thuong",
+      "label": "Thường"
+    },
+    {
+      "value": "lanh",
+      "label": "Lạnh"
+    },
+    {
+      "value": "cap_dong",
+      "label": "Cấp đông"
+    },
+    {
+      "value": "khac",
+      "label": "Khác"
+    }
+  ],
+  "photo_columns": [
+    {
+      "key": "plate",
+      "label": "Biển số xe"
+    },
+    {
+      "key": "container",
+      "label": "Số Rmooc, số Container"
+    },
+    {
+      "key": "packaging",
+      "label": "Sản phẩm đóng gói hoàn chỉnh"
+    },
+    {
+      "key": "lot",
+      "label": "Lô hàng được lấy mẫu"
+    },
+    {
+      "key": "master",
+      "label": "Mẫu chung"
+    },
+    {
+      "key": "test",
+      "label": "Mẫu thử nghiệm"
+    }
+  ]
+}

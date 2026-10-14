@@ -1,0 +1,103 @@
+{
+ "id": 2335,
+ "code": "LM-2606-2327",
+ "state": "deputy_assigned",
+ "state_label": "Đã phân công phó nhóm",
+ "created_by": "Lưu Thị Hoa",
+ "created_at": "2026-06-18 21:16:46.504797+07:00",
+ "updated_by": "OdooBot",
+ "updated_at": "2026-06-19 01:35:05.024723+07:00",
+ "request_code": "PTM2601192",
+ "testing_purpose": "Thị trường xuất khẩu Trung Quốc",
+ "partner_name": "Công ty TNHH TM VÀ XNK ABC",
+ "customer_address": "Ngõ 10, Phường Võ Cường, tỉnh Bắc Ninh, Việt Nam",
+ "contact_name": "QUỐC",
+ "contact_phone": "8",
+ "sample_name": "Sầu riêng tươi",
+ "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+ "sampling_location": "Cơ sở đóng gói Lan Anh - Số 33, Lý Thái Tổ, Phường Kinh Bắc, tỉnh Bắc Ninh",
+ "scheduled": "vào hồi 18 giờ 45 phút, Ngày 19 tháng 06 năm 2026",
+ "parent_sample_code": "PTM2601192.RCQ",
+ "initial_sample_weight": 5,
+ "initial_sample_uom": "Quả",
+ "excess_sample_handling": "Quy định ETECH",
+ "sample_count": 1,
+ "vehicle_plate": "77F00530",
+ "planting_area_code": "VN-TGPH-911",
+ "container_code": "WHLU7748079",
+ "packing_facility_code": "VN-TGOR-0112",
+ "trailer_plate": "77R05064",
+ "team_leaders": [
+  "Tạ Đình Tuấn"
+ ],
+ "deputy_leaders": [
+  "Nghiêm Văn Phúc"
+ ],
+ "members": [],
+ "transport_modes": [
+  "Đường bộ"
+ ],
+ "sampling_equipment": "Thiết bị chuyên dụng",
+ "comparison_standard_type": "Không yêu cầu",
+ "comparison_standard": "",
+ "parameters": [
+  {
+   "parameter": "Auramine O (Thịt quả)/ Auramine O (Fruit flesh)",
+   "method": "ET.PTN.TP-01 (Ref TCVN 12267:2018)",
+   "unit": "µg/Kg (µg/L)",
+   "analyzer_device": "LC/MS/MS",
+   "is_outsourced": false,
+   "detection_limit": ""
+  },
+  {
+   "parameter": "Auramine O (Vỏ ngoài quả)/ Auramine O (Outer shell part)",
+   "method": "ET.PTN.TP-01 (Ref TCVN 12267:2018)",
+   "unit": "µg/Kg (µg/L)",
+   "analyzer_device": "LC/MS/MS",
+   "is_outsourced": false,
+   "detection_limit": ""
+  },
+  {
+   "parameter": "Cadimi (Cd)/ Cadmium (Cd)",
+   "method": "ET.PTN.TP-02 (Ref AOAC 999.10)",
+   "unit": "mg/Kg (mg/L)",
+   "analyzer_device": "AAS",
+   "is_outsourced": false,
+   "detection_limit": ""
+  }
+ ],
+ "methods": [
+  {
+   "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+   "method": "SOP.HTET.TP - 03"
+  }
+ ],
+ "reports": [],
+ "initial_sample_codes": [
+  "PTM2601192.RCQ.01",
+  "PTM2601192.RCQ.02",
+  "PTM2601192.RCQ.03",
+  "PTM2601192.RCQ.04",
+  "PTM2601192.RCQ.05",
+  "PTM2601192.RCQ.06",
+  "PTM2601192.RCQ.07",
+  "PTM2601192.RCQ.08",
+  "PTM2601192.RCQ.09",
+  "PTM2601192.RCQ.10"
+ ],
+ "transport_mode_options": [
+  "Đường bộ",
+  "Đường không",
+  "Đường thủy"
+ ],
+ "comparison_standard_type_options": [
+  {
+   "value": "none",
+   "label": "Không yêu cầu"
+  },
+  {
+   "value": "other",
+   "label": "Khác"
+  }
+ ]
+}

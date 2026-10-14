@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "etech_lab (linux)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "linux"
+    },
+    {
+      "name": "etech_lab (chrome)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": ["--web-experimental-hot-reload"]
+    },
+    {
+      "name": "etech_lab (web :5000 hot reload)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "web-server",
+      "args": [
+        "--web-hostname=127.0.0.1",
+        "--web-port=5001",
+        "--web-experimental-hot-reload"
+      ],
+      "toolEnv": { "FLUTTER_DEV_PORT": "5001" }
+    },
+    {
+      "name": "etech_lab (phone)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "android"
+    }
+  ]
+}

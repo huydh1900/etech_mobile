@@ -1,0 +1,69 @@
+{
+ "id": 1260,
+ "code": "BG-2606-1260",
+ "state": "received",
+ "state_label": "Đã tiếp nhận",
+ "report_code": "260618130",
+ "program_code": "LM-2606-2157",
+ "request_code": "PTM2601035",
+ "partner_name": "Công ty TNHH TM VÀ XNK ABC",
+ "sample_type": "Rau củ quả và sản phẩm rau củ quả",
+ "sample_name": "Sầu riêng tươi",
+ "created_by": "Hà Đình Khánh",
+ "created_at": "2026-06-18 16:08:09.602554+07:00",
+ "updated_by": "Administrator",
+ "updated_at": "2026-06-19 21:50:34+07:00",
+ "sender_dept": "PHÒNG HIỆN TRƯỜNG",
+ "send_method": "direct",
+ "send_method_label": "Trực tiếp",
+ "tracking_no": "",
+ "sample_count": 1,
+ "sampling_completion_label": "16 giờ 06 phút, ngày 18 tháng 06 năm 2026",
+ "result_due_date": "04 giờ 06 phút, ngày 20 tháng 06 năm 2026",
+ "receive_datetime_label": "16 giờ 10 phút, ngày 18 tháng 06 năm 2026",
+ "sender_signer_name": "Hà Đình Khánh",
+ "receiver_signer_name": "Nguyễn Thế Long",
+ "lines": [
+  {
+   "id": 1260,
+   "original_code": "260618.RCQ.0133",
+   "parameters": [
+    "Auramine O (Thịt quả)/ Auramine O (Fruit flesh)",
+    "Auramine O (Vỏ ngoài quả)/ Auramine O (Outer shell part)",
+    "Cadimi (Cd)/ Cadmium (Cd)"
+   ],
+   "seal_stamp_no": "PTM2601035",
+   "eval_sample_status": "Niêm phong",
+   "eval_packing": "mẫu đựng trong thùng carton gói kín bằng bao dứa",
+   "sample_weight": 5,
+   "packing_unit": "Quả",
+   "eval_storage": "Điều kiện thường",
+   "recv_status_result": "Đạt",
+   "recv_packing_result": "Đạt",
+   "recv_weight_result": "Đạt",
+   "recv_storage_result": "Đạt",
+   "attached_sampling_record": true,
+   "attached_handover_slip": true,
+   "conclusion": "Tiếp nhận mẫu",
+   "field_description": "1. Tình trạng mẫu khi nhận/ Sample condition upon receipt: Niêm phong (Niêm phong/không niêm phong)/ (Sealed/ Unsealed)\n2. Bao gói/ Packing: mẫu đựng trong thùng carton gói kín bằng bao dứa\n3. Khối lượng mẫu / Đơn vị bao gói/ Sample weight / Packing unit: 5 Quả (Quả/kg/gói)/ (Pieces/kg/pack)\n4. Tình trạng lưu mẫu/ Sample storage condition: Điều kiện thường (Bảo quản lạnh / điều kiện thường)/ (Cold storage/ Ambient conditions)"
+  }
+ ],
+ "reception_image_count": 0,
+ "preprocess_requests": [
+  {
+   "id": 826,
+   "name": "YCSC/2026/00826",
+   "state": "sent"
+  }
+ ],
+ "send_method_options": [
+  {
+   "value": "direct",
+   "label": "Trực tiếp"
+  },
+  {
+   "value": "shipper",
+   "label": "Đơn vị vận chuyển"
+  }
+ ]
+}

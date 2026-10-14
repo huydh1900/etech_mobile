@@ -1,0 +1,37 @@
+# Build file .ipa KHÔNG ký (unsigned) để sideload bằng Apple ID miễn phí
+# (Sideloadly / AltStore sẽ ký lại khi cài lên iPhone).
+# Chạy tay: tab Actions → "Build iOS (unsigned IPA)" → Run workflow.
+name: Build iOS (unsigned IPA)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.41.7
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - name: Build iOS (no codesign)
+        run: flutter build ios --release --no-codesign
+
+      - name: Đóng gói .ipa
+        run: |
+          mkdir -p Payload
+          cp -R build/ios/iphoneos/Runner.app Payload/
+          zip -qr etech_lab.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: etech_lab-ipa
+          path: etech_lab.ipa
+          retention-days: 7
